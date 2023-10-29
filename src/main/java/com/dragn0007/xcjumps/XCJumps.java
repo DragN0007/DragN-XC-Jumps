@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.dragn0007.xcjumps;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -18,7 +18,7 @@ import org.slf4j.Logger;
 
 import java.util.stream.Collectors;
 
-import static com.example.examplemod.XCJumps.MODID;
+import static com.dragn0007.xcjumps.XCJumps.MODID;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(MODID)
@@ -54,13 +54,13 @@ public class XCJumps
 
     private void enqueueIMC(final InterModEnqueueEvent event)
     {
-        // Some example code to dispatch IMC to another mod
-        InterModComms.sendTo("examplemod", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
+        // Some dragn0007 code to dispatch IMC to another mod
+        InterModComms.sendTo("xcjumps", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
     }
 
     private void processIMC(final InterModProcessEvent event)
     {
-        // Some example code to receive and process InterModComms from other mods
+        // Some dragn0007 code to receive and process InterModComms from other mods
         LOGGER.info("Got IMC {}", event.getIMCStream().
                 map(m->m.messageSupplier().get()).
                 collect(Collectors.toList()));
