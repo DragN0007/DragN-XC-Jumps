@@ -29,6 +29,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> WR_4 = registerBlock("wr_4",
             () -> new WoodenRound());
 
+
     //Double Wooden Round
     public static final RegistryObject<Block> WRD_1 = registerBlock("wrd_1",
             () -> new WoodenRoundDouble());
@@ -39,13 +40,23 @@ public class ModBlocks {
     public static final RegistryObject<Block> WRD_4 = registerBlock("wrd_4",
             () -> new WoodenRoundDouble());
 
-    //Brush
+
+    //Half Brush
     public static final RegistryObject<Block> BHM = registerBlock("bhm",
             () -> new BrushHalfMiddle());
     public static final RegistryObject<Block> BHR = registerBlock("bhr",
             () -> new BrushHalfRight());
     public static final RegistryObject<Block> BHL = registerBlock("bhl",
             () -> new BrushHalfLeft());
+
+
+    //Full Brush
+    public static final RegistryObject<Block> BFM = registerBlock("bfm",
+            () -> new BrushFullMiddle());
+    public static final RegistryObject<Block> BFR = registerBlock("bfr",
+            () -> new BrushFullRight());
+    public static final RegistryObject<Block> BFL = registerBlock("bfl",
+            () -> new BrushFullLeft());
 
 
 

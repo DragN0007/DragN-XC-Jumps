@@ -13,7 +13,9 @@
   "block.xcjumps.bhl": "Brush Half Jump Left",
   "block.xcjumps.bhr": "Brush Half Jump Right",
 
-
+  "block.xcjumps.bfm": "Brush Full Jump Middle",
+  "block.xcjumps.bfl": "Brush Full Jump Left",
+  "block.xcjumps.bfr": "Brush Full Jump Right",
 
 
   "itemGroup.XCModTab": "DragN's Cross-Country Jumps"
