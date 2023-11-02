@@ -1,8 +1,10 @@
 {
-  "block.xcjumps.wr_1": "Wooden Round Jump Default",
+  "block.xcjumps.wr_1": "Wooden Round Jump Oak",
   "block.xcjumps.wr_2": "Wooden Round Jump Blue",
+  "block.xcjumps.wr_3": "Wooden Round Jump Birch & Dark Oak",
+  "block.xcjumps.wr_4": "Wooden Round Jump Floral",
 
 
 
-  "itemGroup.XCModTab": "XC Jumps"
+  "itemGroup.XCModTab": "DragN's Cross-Country Jumps"
 }

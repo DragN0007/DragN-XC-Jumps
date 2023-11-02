@@ -7,7 +7,7 @@ import net.minecraft.world.item.ItemStack;
 
 public class ModItemGroup {
 
-    public static final CreativeModeTab DECOR_GROUP = new CreativeModeTab("XCModTab")
+    public static final CreativeModeTab XC_GROUP = new CreativeModeTab("XCModTab")
     {
         @Override
         public ItemStack makeIcon() {

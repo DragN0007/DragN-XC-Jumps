@@ -23,6 +23,10 @@ public class ModBlocks {
             () -> new WoodenRound());
     public static final RegistryObject<WoodenRound> WR_2 = registerBlock("wr_2",
             () -> new WoodenRound());
+    public static final RegistryObject<WoodenRound> WR_3 = registerBlock("wr_3",
+            () -> new WoodenRound());
+    public static final RegistryObject<WoodenRound> WR_4 = registerBlock("wr_4",
+            () -> new WoodenRound());
 
 
 
@@ -33,7 +37,7 @@ public class ModBlocks {
     }
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-                new Item.Properties().tab(ModItemGroup.DECOR_GROUP)));
+                new Item.Properties().tab(ModItemGroup.XC_GROUP)));
     }
 
     public static void register(IEventBus eventBus) {
