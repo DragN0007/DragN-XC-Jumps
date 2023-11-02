@@ -2,6 +2,7 @@ package com.dragn0007.xcjumps.block;
 
 import com.dragn0007.xcjumps.XCJumps;
 import com.dragn0007.xcjumps.block.vox.WoodenRound;
+import com.dragn0007.xcjumps.block.vox.WoodenRoundDouble;
 import com.dragn0007.xcjumps.item.ModItemGroup;
 import com.dragn0007.xcjumps.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -19,14 +20,25 @@ public class ModBlocks {
             = DeferredRegister.create(ForgeRegistries.BLOCKS, XCJumps.MODID);
 
 
-    public static final RegistryObject<WoodenRound> WR_1 = registerBlock("wr_1",
+    //Wooden Round
+    public static final RegistryObject<Block> WR_1 = registerBlock("wr_1",
             () -> new WoodenRound());
-    public static final RegistryObject<WoodenRound> WR_2 = registerBlock("wr_2",
+    public static final RegistryObject<Block> WR_2 = registerBlock("wr_2",
             () -> new WoodenRound());
-    public static final RegistryObject<WoodenRound> WR_3 = registerBlock("wr_3",
+    public static final RegistryObject<Block> WR_3 = registerBlock("wr_3",
             () -> new WoodenRound());
-    public static final RegistryObject<WoodenRound> WR_4 = registerBlock("wr_4",
+    public static final RegistryObject<Block> WR_4 = registerBlock("wr_4",
             () -> new WoodenRound());
+
+    //Double Wooden Round
+    public static final RegistryObject<Block> WRD_1 = registerBlock("wrd_1",
+            () -> new WoodenRoundDouble());
+    public static final RegistryObject<Block> WRD_2 = registerBlock("wrd_2",
+            () -> new WoodenRoundDouble());
+    public static final RegistryObject<Block> WRD_3 = registerBlock("wrd_3",
+            () -> new WoodenRoundDouble());
+    public static final RegistryObject<Block> WRD_4 = registerBlock("wrd_4",
+            () -> new WoodenRoundDouble());
 
 
 
