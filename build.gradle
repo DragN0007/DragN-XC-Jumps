@@ -16,7 +16,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 
 
-version = '1.0'
+version = '1.0-1.18.2'
 group = 'com.dragn0007.xcjumps' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'XC-Jumps'
 
