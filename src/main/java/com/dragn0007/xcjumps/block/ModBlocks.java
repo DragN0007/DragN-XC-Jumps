@@ -1,8 +1,7 @@
 package com.dragn0007.xcjumps.block;
 
 import com.dragn0007.xcjumps.XCJumps;
-import com.dragn0007.xcjumps.block.vox.WoodenRound;
-import com.dragn0007.xcjumps.block.vox.WoodenRoundDouble;
+import com.dragn0007.xcjumps.block.vox.*;
 import com.dragn0007.xcjumps.item.ModItemGroup;
 import com.dragn0007.xcjumps.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -39,6 +38,14 @@ public class ModBlocks {
             () -> new WoodenRoundDouble());
     public static final RegistryObject<Block> WRD_4 = registerBlock("wrd_4",
             () -> new WoodenRoundDouble());
+
+    //Brush
+    public static final RegistryObject<Block> BHM = registerBlock("bhm",
+            () -> new BrushHalfMiddle());
+    public static final RegistryObject<Block> BHR = registerBlock("bhr",
+            () -> new BrushHalfRight());
+    public static final RegistryObject<Block> BHL = registerBlock("bhl",
+            () -> new BrushHalfLeft());
 
 
 

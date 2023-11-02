@@ -9,6 +9,11 @@
   "block.xcjumps.wrd_3": "Double Wooden Round Jump Birch & Dark Oak",
   "block.xcjumps.wrd_4": "Double Wooden Round Jump Floral",
 
+  "block.xcjumps.bhm": "Brush Half Jump Middle",
+  "block.xcjumps.bhl": "Brush Half Jump Left",
+  "block.xcjumps.bhr": "Brush Half Jump Right",
+
+
 
 
   "itemGroup.XCModTab": "DragN's Cross-Country Jumps"

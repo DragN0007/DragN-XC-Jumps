@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "xcjumps:block/bhl",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "xcjumps:block/bhl"
+    },
+    "facing=south": {
+      "model": "xcjumps:block/bhl",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xcjumps:block/bhl",
+      "y": 270
+    }
+  }
+}
