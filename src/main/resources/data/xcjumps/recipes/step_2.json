@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "AC ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:birch_log"
+    },
+    "C": {
+      "item": "minecraft:dark_oak_log"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:step_2",
+    "count": 2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "C C"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:birch_log"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:oxer_2",
+    "count": 2
+  }
+}

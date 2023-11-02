@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "AC ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:oak_log"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:step_1",
+    "count": 2
+  }
+}

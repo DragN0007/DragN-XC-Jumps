@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:birch_log"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:ditch_2",
+    "count": 2
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:dark_oak_log"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:ditch_3",
+    "count": 2
+  }
+}

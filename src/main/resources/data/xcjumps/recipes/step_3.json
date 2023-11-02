@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "AC ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "C": {
+      "item": "minecraft:poppy"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:step_3",
+    "count": 2
+  }
+}
