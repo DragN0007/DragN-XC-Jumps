@@ -11,7 +11,7 @@ public class ModItemGroup {
     {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModBlocks.WR_1.get());
+            return new ItemStack(ModItems.MODGROUP.get());
         }
     };
 
