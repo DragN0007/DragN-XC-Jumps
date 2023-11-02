@@ -33,6 +33,9 @@
   "block.xcjumps.ditch_3": "Ditch Jump Dark",
   "block.xcjumps.trake_3": "Trakehner Jump Dark",
 
+  "block.xcjumps.step_1": "Step Jump Oak",
+  "block.xcjumps.step_2": "Step Jump White",
+  "block.xcjumps.step_3": "Step Jump Floral",
 
   "itemGroup.XCModTab": "DragN's Cross-Country Jumps"
 }

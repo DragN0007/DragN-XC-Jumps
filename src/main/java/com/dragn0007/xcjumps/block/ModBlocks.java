@@ -92,6 +92,15 @@ public class ModBlocks {
             () -> new Oxer());
 
 
+    //Step
+    public static final RegistryObject<Block> STEP_1 = registerBlock("step_1",
+            () -> new Step());
+    public static final RegistryObject<Block> STEP_2 = registerBlock("step_2",
+            () -> new Step());
+    public static final RegistryObject<Block> STEP_3 = registerBlock("step_3",
+            () -> new Step());
+
+
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
