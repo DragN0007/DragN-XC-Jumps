@@ -59,6 +59,39 @@ public class ModBlocks {
             () -> new BrushFullLeft());
 
 
+    //Log
+    public static final RegistryObject<Block> LOG = registerBlock("log",
+            () -> new Log());
+    public static final RegistryObject<Block> TRAKE = registerBlock("trake",
+            () -> new Trakehner());
+    public static final RegistryObject<Block> DITCH = registerBlock("ditch",
+            () -> new Ditch());
+    public static final RegistryObject<Block> TABLE = registerBlock("table",
+            () -> new Table());
+    public static final RegistryObject<Block> OXER = registerBlock("oxer",
+            () -> new Oxer());
+    public static final RegistryObject<Block> LOG_2 = registerBlock("log_2",
+            () -> new Log());
+    public static final RegistryObject<Block> TRAKE_2 = registerBlock("trake_2",
+            () -> new Trakehner());
+    public static final RegistryObject<Block> DITCH_2 = registerBlock("ditch_2",
+            () -> new Ditch());
+    public static final RegistryObject<Block> TABLE_2 = registerBlock("table_2",
+            () -> new Table());
+    public static final RegistryObject<Block> OXER_2 = registerBlock("oxer_2",
+            () -> new Oxer());
+    public static final RegistryObject<Block> LOG_3 = registerBlock("log_3",
+            () -> new Log());
+    public static final RegistryObject<Block> TRAKE_3 = registerBlock("trake_3",
+            () -> new Trakehner());
+    public static final RegistryObject<Block> DITCH_3 = registerBlock("ditch_3",
+            () -> new Ditch());
+    public static final RegistryObject<Block> TABLE_3 = registerBlock("table_3",
+            () -> new Table());
+    public static final RegistryObject<Block> OXER_3 = registerBlock("oxer_3",
+            () -> new Oxer());
+
+
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

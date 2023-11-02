@@ -1,0 +1,83 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "xcjumps:block/trakehner_1",
+		"particle": "xcjumps:block/trakehner_1"
+	},
+	"elements": [
+		{
+			"from": [-14.99, 0.08, 16.07],
+			"to": [30.99, 6.13, 23.33],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.105, 8]},
+			"faces": {
+				"north": {"uv": [0, 1.5, 4.75, 2.125], "texture": "#0"},
+				"east": {"uv": [2.5, 5.125, 3.25, 5.75], "texture": "#0"},
+				"south": {"uv": [0, 2.125, 4.75, 2.75], "texture": "#0"},
+				"west": {"uv": [3.25, 5.125, 4, 5.75], "texture": "#0"},
+				"up": {"uv": [4.75, 0.75, 0, 0], "texture": "#0"},
+				"down": {"uv": [4.75, 0.75, 0, 1.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-14.99, 0.08, -7.33],
+			"to": [30.99, 6.13, -0.07],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.105, 8]},
+			"faces": {
+				"north": {"uv": [0, 1.5, 4.75, 2.125], "texture": "#0"},
+				"east": {"uv": [2.5, 5.125, 3.25, 5.75], "texture": "#0"},
+				"south": {"uv": [0, 2.125, 4.75, 2.75], "texture": "#0"},
+				"west": {"uv": [3.25, 5.125, 4, 5.75], "texture": "#0"},
+				"up": {"uv": [4.75, 0.75, 0, 0], "texture": "#0"},
+				"down": {"uv": [4.75, 0.75, 0, 1.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "VoxelShapes",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "Jump",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [0, 1]
+				}
+			]
+		}
+	]
+}

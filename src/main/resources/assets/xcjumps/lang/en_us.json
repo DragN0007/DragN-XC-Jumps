@@ -17,6 +17,22 @@
   "block.xcjumps.bfl": "Brush Full Jump Left",
   "block.xcjumps.bfr": "Brush Full Jump Right",
 
+  "block.xcjumps.table": "Table Jump Medium",
+  "block.xcjumps.log": "Log Jump Medium",
+  "block.xcjumps.oxer": "Oxer Jump Medium",
+  "block.xcjumps.ditch": "Ditch Jump Medium",
+  "block.xcjumps.trake": "Trakehner Jump Medium",
+  "block.xcjumps.table": "Table Jump Light",
+  "block.xcjumps.log_2": "Log Jump Light",
+  "block.xcjumps.oxer_2": "Oxer Jump Light",
+  "block.xcjumps.ditch_2": "Ditch Jump Light",
+  "block.xcjumps.trake_2": "Trakehner Jump Light",
+  "block.xcjumps.table": "Table Jump Dark",
+  "block.xcjumps.log_3": "Log Jump Dark",
+  "block.xcjumps.oxer_3": "Oxer Jump Dark",
+  "block.xcjumps.ditch_3": "Ditch Jump Dark",
+  "block.xcjumps.trake_3": "Trakehner Jump Dark",
+
 
   "itemGroup.XCModTab": "DragN's Cross-Country Jumps"
 }

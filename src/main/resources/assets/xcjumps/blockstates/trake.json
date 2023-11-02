@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "xcjumps:block/trake",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "xcjumps:block/trake"
+    },
+    "facing=south": {
+      "model": "xcjumps:block/trake",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xcjumps:block/trake",
+      "y": 270
+    }
+  }
+}
