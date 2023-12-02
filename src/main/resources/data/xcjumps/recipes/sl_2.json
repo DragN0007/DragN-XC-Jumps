@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    " A ",
+    "B B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "B": {
+      "item": "minecraft:dark_oak_planks"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:sl_2",
+    "count": 2
+  }
+}
