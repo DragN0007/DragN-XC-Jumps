@@ -37,5 +37,11 @@
   "block.xcjumps.step_2": "Step Jump White",
   "block.xcjumps.step_3": "Step Jump Floral",
 
+  "block.xcjumps.horsestatue_1": "Stone Horse Head Statue",
+  "block.xcjumps.horsestatue_2": "Andesite Horse Head Statue",
+  "block.xcjumps.horsestatue_3": "Granite Horse Head Statue",
+  "block.xcjumps.horsestatue_4": "Diorite Horse Head Statue",
+  "block.xcjumps.horsestatue_5": "Blackstone Horse Head Statue",
+
   "itemGroup.XCModTab": "DragN's Cross-Country Jumps"
 }

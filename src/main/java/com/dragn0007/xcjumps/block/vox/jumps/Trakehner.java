@@ -1,4 +1,4 @@
-package com.dragn0007.xcjumps.block.vox;
+package com.dragn0007.xcjumps.block.vox.jumps;
 
 import com.dragn0007.xcjumps.block.rot.DecorRotator;
 import net.minecraft.world.level.block.Block;
@@ -8,9 +8,9 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 import java.util.stream.Stream;
 
-public class Log extends DecorRotator {
+public class Trakehner extends DecorRotator {
 
-    public Log() {
+    public Trakehner() {
         super(NORTH, EAST, SOUTH, WEST);
     }
 

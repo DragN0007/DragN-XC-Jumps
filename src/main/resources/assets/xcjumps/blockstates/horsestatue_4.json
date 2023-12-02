@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "xcjumps:block/horsestatue_4",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "xcjumps:block/horsestatue_4"
+    },
+    "facing=south": {
+      "model": "xcjumps:block/horsestatue_4",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xcjumps:block/horsestatue_4",
+      "y": 270
+    }
+  }
+}

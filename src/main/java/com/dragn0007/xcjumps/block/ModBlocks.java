@@ -1,7 +1,8 @@
 package com.dragn0007.xcjumps.block;
 
 import com.dragn0007.xcjumps.XCJumps;
-import com.dragn0007.xcjumps.block.vox.*;
+import com.dragn0007.xcjumps.block.vox.decor.HorseHeadStatue;
+import com.dragn0007.xcjumps.block.vox.jumps.*;
 import com.dragn0007.xcjumps.item.ModItemGroup;
 import com.dragn0007.xcjumps.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -99,6 +100,20 @@ public class ModBlocks {
             () -> new Step());
     public static final RegistryObject<Block> STEP_3 = registerBlock("step_3",
             () -> new Step());
+
+
+
+    //Decor
+    public static final RegistryObject<Block> HORSESTATUE_1 = registerBlock("horsestatue_1",
+            () -> new HorseHeadStatue());
+    public static final RegistryObject<Block> HORSESTATUE_2 = registerBlock("horsestatue_2",
+            () -> new HorseHeadStatue());
+    public static final RegistryObject<Block> HORSESTATUE_3 = registerBlock("horsestatue_3",
+            () -> new HorseHeadStatue());
+    public static final RegistryObject<Block> HORSESTATUE_4 = registerBlock("horsestatue_4",
+            () -> new HorseHeadStatue());
+    public static final RegistryObject<Block> HORSESTATUE_5 = registerBlock("horsestatue_5",
+            () -> new HorseHeadStatue());
 
 
 
