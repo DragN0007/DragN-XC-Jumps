@@ -1,7 +1,7 @@
 package com.dragn0007.xcjumps.event;
 
 import com.dragn0007.xcjumps.XCJumps;
-import com.dragn0007.xcjumps.block.ModBlocks;
+import com.dragn0007.xcjumps.block.XCBlocks;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -14,12 +14,12 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
     @SubscribeEvent
     public static void clientSetupEvent(FMLClientSetupEvent event) {
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BHM.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BHL.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BHR.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BFM.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BFL.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BFR.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.BHM.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.BHL.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.BHR.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.BFM.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.BFL.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.BFR.get(), RenderType.translucent());
     }
 }
 

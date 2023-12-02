@@ -1,7 +1,7 @@
 package com.dragn0007.xcjumps;
 
-import com.dragn0007.xcjumps.block.ModBlocks;
-import com.dragn0007.xcjumps.item.ModItems;
+import com.dragn0007.xcjumps.block.XCBlocks;
+import com.dragn0007.xcjumps.item.XCItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,8 +34,8 @@ public class XCJumps
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::setup);
 
-        ModItems.register(eventBus);
-        ModBlocks.register(eventBus);
+        XCItems.register(eventBus);
+        XCBlocks.register(eventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

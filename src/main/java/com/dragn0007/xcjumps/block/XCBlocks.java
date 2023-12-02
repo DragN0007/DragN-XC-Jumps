@@ -3,8 +3,8 @@ package com.dragn0007.xcjumps.block;
 import com.dragn0007.xcjumps.XCJumps;
 import com.dragn0007.xcjumps.block.vox.decor.HorseHeadStatue;
 import com.dragn0007.xcjumps.block.vox.jumps.*;
-import com.dragn0007.xcjumps.item.ModItemGroup;
-import com.dragn0007.xcjumps.item.ModItems;
+import com.dragn0007.xcjumps.item.XCItemGroup;
+import com.dragn0007.xcjumps.item.XCItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -15,7 +15,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
-public class ModBlocks {
+public class XCBlocks {
     public static final DeferredRegister<Block> BLOCKS
             = DeferredRegister.create(ForgeRegistries.BLOCKS, XCJumps.MODID);
 
@@ -123,8 +123,8 @@ public class ModBlocks {
         return toReturn;
     }
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
-        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-                new Item.Properties().tab(ModItemGroup.XC_GROUP)));
+        XCItems.ITEMS.register(name, () -> new BlockItem(block.get(),
+                new Item.Properties().tab(XCItemGroup.XC_GROUP)));
     }
 
     public static void register(IEventBus eventBus) {
