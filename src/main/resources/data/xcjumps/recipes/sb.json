@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "ACA",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:oak_log"
+    },
+    "C": {
+      "item": "minecraft:azalea_leaves"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:sb",
+    "count": 2
+  }
+}
