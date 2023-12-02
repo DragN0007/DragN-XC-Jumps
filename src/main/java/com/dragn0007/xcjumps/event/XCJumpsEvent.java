@@ -20,6 +20,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.BFM.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.BFL.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.BFR.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.SB.get(), RenderType.translucent());
     }
 }
 

@@ -2,6 +2,7 @@ package com.dragn0007.xcjumps.block;
 
 import com.dragn0007.xcjumps.XCJumps;
 import com.dragn0007.xcjumps.block.vox.decor.HorseHeadStatue;
+import com.dragn0007.xcjumps.block.vox.decor.Sign;
 import com.dragn0007.xcjumps.block.vox.jumps.*;
 import com.dragn0007.xcjumps.item.XCItemGroup;
 import com.dragn0007.xcjumps.item.XCItems;
@@ -20,7 +21,7 @@ public class XCBlocks {
             = DeferredRegister.create(ForgeRegistries.BLOCKS, XCJumps.MODID);
 
 
-    //Wooden Round
+    //Wooden
     public static final RegistryObject<Block> WR_1 = registerBlock("wr_1",
             () -> new WoodenRound());
     public static final RegistryObject<Block> WR_2 = registerBlock("wr_2",
@@ -29,9 +30,6 @@ public class XCBlocks {
             () -> new WoodenRound());
     public static final RegistryObject<Block> WR_4 = registerBlock("wr_4",
             () -> new WoodenRound());
-
-
-    //Double Wooden Round
     public static final RegistryObject<Block> WRD_1 = registerBlock("wrd_1",
             () -> new WoodenRoundDouble());
     public static final RegistryObject<Block> WRD_2 = registerBlock("wrd_2",
@@ -41,6 +39,18 @@ public class XCBlocks {
     public static final RegistryObject<Block> WRD_4 = registerBlock("wrd_4",
             () -> new WoodenRoundDouble());
 
+    public static final RegistryObject<Block> WS_1 = registerBlock("ws_1",
+            () -> new WoodenSquare());
+    public static final RegistryObject<Block> WS_2 = registerBlock("ws_2",
+            () -> new WoodenSquare());
+    public static final RegistryObject<Block> WS_3 = registerBlock("ws_3",
+            () -> new WoodenSquare());
+    public static final RegistryObject<Block> WSD_1 = registerBlock("wsd_1",
+            () -> new WoodenSquareDouble());
+    public static final RegistryObject<Block> WSD_2 = registerBlock("wsd_2",
+            () -> new WoodenSquareDouble());
+    public static final RegistryObject<Block> WSD_3 = registerBlock("wsd_3",
+            () -> new WoodenSquareDouble());
 
     //Half Brush
     public static final RegistryObject<Block> BHR = registerBlock("bhr",
@@ -50,7 +60,6 @@ public class XCBlocks {
     public static final RegistryObject<Block> BHL = registerBlock("bhl",
             () -> new BrushHalfLeft());
 
-
     //Full Brush
     public static final RegistryObject<Block> BFR = registerBlock("bfr",
             () -> new BrushFullRight());
@@ -58,7 +67,6 @@ public class XCBlocks {
             () -> new BrushFullMiddle());
     public static final RegistryObject<Block> BFL = registerBlock("bfl",
             () -> new BrushFullLeft());
-
 
     //Log
     public static final RegistryObject<Block> LOG = registerBlock("log",
@@ -92,7 +100,6 @@ public class XCBlocks {
     public static final RegistryObject<Block> OXER_3 = registerBlock("oxer_3",
             () -> new Oxer());
 
-
     //Step
     public static final RegistryObject<Block> STEP_1 = registerBlock("step_1",
             () -> new Step());
@@ -101,6 +108,13 @@ public class XCBlocks {
     public static final RegistryObject<Block> STEP_3 = registerBlock("step_3",
             () -> new Step());
 
+    //Slant
+    public static final RegistryObject<Block> SL_1 = registerBlock("sl_1",
+            () -> new Slant());
+    public static final RegistryObject<Block> SL_2 = registerBlock("sl_2",
+            () -> new Slant());
+    public static final RegistryObject<Block> SB = registerBlock("sb",
+            () -> new SlantBush());
 
 
     //Decor
@@ -114,6 +128,26 @@ public class XCBlocks {
             () -> new HorseHeadStatue());
     public static final RegistryObject<Block> HORSESTATUE_5 = registerBlock("horsestatue_5",
             () -> new HorseHeadStatue());
+    public static final RegistryObject<Block> SIGN_0 = registerBlock("sign_0",
+            () -> new Sign());
+    public static final RegistryObject<Block> SIGN_1 = registerBlock("sign_1",
+            () -> new Sign());
+    public static final RegistryObject<Block> SIGN_2 = registerBlock("sign_2",
+            () -> new Sign());
+    public static final RegistryObject<Block> SIGN_3 = registerBlock("sign_3",
+            () -> new Sign());
+    public static final RegistryObject<Block> SIGN_4 = registerBlock("sign_4",
+            () -> new Sign());
+    public static final RegistryObject<Block> SIGN_5 = registerBlock("sign_5",
+            () -> new Sign());
+    public static final RegistryObject<Block> SIGN_6 = registerBlock("sign_6",
+            () -> new Sign());
+    public static final RegistryObject<Block> SIGN_7 = registerBlock("sign_7",
+            () -> new Sign());
+    public static final RegistryObject<Block> SIGN_8 = registerBlock("sign_8",
+            () -> new Sign());
+    public static final RegistryObject<Block> SIGN_9 = registerBlock("sign_9",
+            () -> new Sign());
 
 
 

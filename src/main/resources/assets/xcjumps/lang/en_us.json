@@ -9,6 +9,14 @@
   "block.xcjumps.wrd_3": "Double Wooden Round Jump Birch & Dark Oak",
   "block.xcjumps.wrd_4": "Double Wooden Round Jump Floral",
 
+  "block.xcjumps.ws_1": "Wooden Square Jump Oak",
+  "block.xcjumps.ws_2": "Wooden Square Jump Light",
+  "block.xcjumps.ws_3": "Wooden Square Jump Dark",
+
+  "block.xcjumps.wsd_1": "Double Wooden Square Jump Oak",
+  "block.xcjumps.wsd_2": "Double Wooden Square Jump Light",
+  "block.xcjumps.wsd_3": "Double Wooden Square Jump Dark",
+
   "block.xcjumps.bhm": "Brush Half Jump Middle",
   "block.xcjumps.bhl": "Brush Half Jump Left",
   "block.xcjumps.bhr": "Brush Half Jump Right",
@@ -37,11 +45,31 @@
   "block.xcjumps.step_2": "Step Jump White",
   "block.xcjumps.step_3": "Step Jump Floral",
 
+  "block.xcjumps.sl_1": "Triangle Slant Oak",
+  "block.xcjumps.sl_2": "Triangle Slant Dark",
+  "block.xcjumps.sb": "Slanted Tri-Bush",
+
   "block.xcjumps.horsestatue_1": "Stone Horse Head Statue",
   "block.xcjumps.horsestatue_2": "Andesite Horse Head Statue",
   "block.xcjumps.horsestatue_3": "Granite Horse Head Statue",
   "block.xcjumps.horsestatue_4": "Diorite Horse Head Statue",
   "block.xcjumps.horsestatue_5": "Blackstone Horse Head Statue",
+
+  "block.xcjumps.sign_0": "Sign 0",
+  "block.xcjumps.sign_1": "Sign 1",
+  "block.xcjumps.sign_2": "Sign 2",
+  "block.xcjumps.sign_3": "Sign 3",
+  "block.xcjumps.sign_4": "Sign 4",
+  "block.xcjumps.sign_5": "Sign 5",
+  "block.xcjumps.sign_6": "Sign 6",
+  "block.xcjumps.sign_7": "Sign 7",
+  "block.xcjumps.sign_8": "Sign 8",
+  "block.xcjumps.sign_9": "Sign 9",
+
+  "item.xcjumps.diamond_medal": "Diamond Medal",
+  "item.xcjumps.gold_medal": "Gold Medal",
+  "item.xcjumps.silver_medal": "Silver Medal",
+  "item.xcjumps.bronze_medal": "Bronze Medal",
 
   "itemGroup.XCModTab": "DragN's Cross-Country Jumps"
 }
