@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BB",
+    " A ",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:white_wool"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:white_flag",
+    "count": 1
+  }
+}

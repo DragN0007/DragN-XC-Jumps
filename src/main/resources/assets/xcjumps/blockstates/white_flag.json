@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "xcjumps:block/white_flag",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "xcjumps:block/white_flag"
+    },
+    "facing=south": {
+      "model": "xcjumps:block/white_flag",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xcjumps:block/white_flag",
+      "y": 270
+    }
+  }
+}

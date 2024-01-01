@@ -14,6 +14,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
     @SubscribeEvent
     public static void clientSetupEvent(FMLClientSetupEvent event) {
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.RED_FLAG.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.WHITE_FLAG.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.BHM.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.BHL.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.BHR.get(), RenderType.translucent());

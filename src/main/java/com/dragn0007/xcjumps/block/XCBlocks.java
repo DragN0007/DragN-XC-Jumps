@@ -148,6 +148,11 @@ public class XCBlocks {
             () -> new Sign());
     public static final RegistryObject<Block> SIGN_9 = registerBlock("sign_9",
             () -> new Sign());
+    public static final RegistryObject<Block> RED_FLAG = registerBlock("red_flag",
+            () -> new Sign());
+    public static final RegistryObject<Block> WHITE_FLAG = registerBlock("white_flag",
+            () -> new Sign());
+
 
 
 
