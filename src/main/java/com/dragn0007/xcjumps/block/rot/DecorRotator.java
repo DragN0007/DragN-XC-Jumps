@@ -40,7 +40,6 @@ public class DecorRotator extends HorizontalDirectionalBlock {
         builder.add(FACING);
     }
 
-
     //VoxelShapes
     public VoxelShape getShape(BlockState state, BlockGetter blockReader, BlockPos pos, CollisionContext context) {
         switch(state.getValue(FACING)) {

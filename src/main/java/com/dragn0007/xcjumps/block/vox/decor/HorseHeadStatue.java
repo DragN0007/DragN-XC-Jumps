@@ -30,5 +30,4 @@ public class HorseHeadStatue extends DecorRotator {
             Block.box(3.5, 0, 5.300000000000001, 12.5, 12, 9.7)
     ).reduce((v1, v2) -> Shapes.join(v1, v2,BooleanOp.OR)).get();
 
-
 }
