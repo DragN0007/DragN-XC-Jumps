@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:oak_leaves"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:hedge",
+    "count": 2
+  }
+}
