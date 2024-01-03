@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C C",
+    "AAA",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:barrel"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:bask",
+    "count": 1
+  }
+}
