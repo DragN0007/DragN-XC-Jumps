@@ -55,6 +55,26 @@
   "block.xcjumps.horsestatue_4": "Diorite Horse Head Statue",
   "block.xcjumps.horsestatue_5": "Blackstone Horse Head Statue",
 
+  "block.xcjumps.wall_liner": "Wall Lining",
+
+  "block.xcjumps.short": "Short",
+  "block.xcjumps.hedge": "Hedge",
+  "block.xcjumps.fh": "Fenced Hedge",
+
+  "block.xcjumps.cr": "Castle Right",
+  "block.xcjumps.cm": "Castle Middle",
+  "block.xcjumps.cl": "Castle Left",
+  "block.xcjumps.kr": "Knight Right",
+  "block.xcjumps.km": "Knight Middle",
+  "block.xcjumps.kl": "Knight Left",
+
+  "block.xcjumps.barn": "Barn",
+  "block.xcjumps.cliff": "Flower Cliff",
+  "block.xcjumps.gl": "Ground Log",
+  "block.xcjumps.bask": "Basket",
+  "block.xcjumps.fbask": "Flower Basket",
+  "block.xcjumps.carrot": "Giant Carrot",
+
   "block.xcjumps.sign_0": "Sign 0",
   "block.xcjumps.sign_1": "Sign 1",
   "block.xcjumps.sign_2": "Sign 2",
