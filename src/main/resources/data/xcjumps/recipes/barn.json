@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "A": {
+      "item": "minecraft:bricks"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:barn",
+    "count": 1
+  }
+}
