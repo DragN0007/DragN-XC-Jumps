@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:orange_concrete"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:carrot",
+    "count": 1
+  }
+}

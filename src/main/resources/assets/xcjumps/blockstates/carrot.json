@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "xcjumps:block/carrot",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "xcjumps:block/carrot"
+    },
+    "facing=south": {
+      "model": "xcjumps:block/carrot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xcjumps:block/carrot",
+      "y": 270
+    }
+  }
+}
