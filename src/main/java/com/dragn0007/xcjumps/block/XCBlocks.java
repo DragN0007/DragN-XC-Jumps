@@ -4,11 +4,16 @@ import com.dragn0007.xcjumps.XCJumps;
 import com.dragn0007.xcjumps.block.vox.decor.HorseHeadStatue;
 import com.dragn0007.xcjumps.block.vox.decor.Sign;
 import com.dragn0007.xcjumps.block.vox.jumps.*;
+import com.dragn0007.xcjumps.block.vox.jumps.Short;
 import com.dragn0007.xcjumps.item.XCItemGroup;
 import com.dragn0007.xcjumps.item.XCItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.TrapDoorBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -20,6 +25,51 @@ public class XCBlocks {
     public static final DeferredRegister<Block> BLOCKS
             = DeferredRegister.create(ForgeRegistries.BLOCKS, XCJumps.MODID);
 
+    //TODO; 1.3
+    public static final RegistryObject<Block> WALL_LINER = registerBlock("wall_liner",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+
+    //Castle
+    public static final RegistryObject<Block> CR = registerBlock("cr",
+            () -> new CastleRight());
+    public static final RegistryObject<Block> CM = registerBlock("cm",
+            () -> new CastleMiddle());
+    public static final RegistryObject<Block> CL = registerBlock("cl",
+            () -> new CastleLeft());
+
+    //Large, Misc
+    public static final RegistryObject<Block> BARN = registerBlock("barn",
+            () -> new Barn());
+    public static final RegistryObject<Block> BASK = registerBlock("bask",
+            () -> new Basket());
+    public static final RegistryObject<Block> FBASK = registerBlock("fbask",
+            () -> new Basket());
+    public static final RegistryObject<Block> CLIFF = registerBlock("cliff",
+            () -> new Cliff());
+    public static final RegistryObject<Block> GL = registerBlock("gl",
+            () -> new GroundLog());
+    public static final RegistryObject<Block> CARROT = registerBlock("carrot",
+            () -> new Carrot());
+
+    //Knight
+    public static final RegistryObject<Block> KR = registerBlock("kr",
+            () -> new KnightRight());
+    public static final RegistryObject<Block> KM = registerBlock("km",
+            () -> new KnightMiddle());
+    public static final RegistryObject<Block> KL = registerBlock("kl",
+            () -> new KnightLeft());
+
+    public static final RegistryObject<Block> SHORT = registerBlock("short",
+            () -> new Short());
+
+    public static final RegistryObject<Block> HEDGE = registerBlock("hedge",
+            () -> new Hedge());
+    public static final RegistryObject<Block> FH = registerBlock("fh",
+            () -> new Hedge());
+
+
+
+    //TODO; 1.0-1.2
 
     //Wooden
     public static final RegistryObject<Block> WR_1 = registerBlock("wr_1",
@@ -52,15 +102,13 @@ public class XCBlocks {
     public static final RegistryObject<Block> WSD_3 = registerBlock("wsd_3",
             () -> new WoodenSquareDouble());
 
-    //Half Brush
+    //Brush & Hedge
     public static final RegistryObject<Block> BHR = registerBlock("bhr",
             () -> new BrushHalfRight());
     public static final RegistryObject<Block> BHM = registerBlock("bhm",
             () -> new BrushHalfMiddle());
     public static final RegistryObject<Block> BHL = registerBlock("bhl",
             () -> new BrushHalfLeft());
-
-    //Full Brush
     public static final RegistryObject<Block> BFR = registerBlock("bfr",
             () -> new BrushFullRight());
     public static final RegistryObject<Block> BFM = registerBlock("bfm",
@@ -116,7 +164,6 @@ public class XCBlocks {
     public static final RegistryObject<Block> SB = registerBlock("sb",
             () -> new SlantBush());
 
-
     //Decor
     public static final RegistryObject<Block> HORSESTATUE_1 = registerBlock("horsestatue_1",
             () -> new HorseHeadStatue());
@@ -152,7 +199,6 @@ public class XCBlocks {
             () -> new Sign());
     public static final RegistryObject<Block> WHITE_FLAG = registerBlock("white_flag",
             () -> new Sign());
-
 
 
 

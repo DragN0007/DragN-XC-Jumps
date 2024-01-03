@@ -14,6 +14,15 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
     @SubscribeEvent
     public static void clientSetupEvent(FMLClientSetupEvent event) {
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.CLIFF.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.HEDGE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FH.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.BASK.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBASK.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.CR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.CM.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.CL.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.WALL_LINER.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.RED_FLAG.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.WHITE_FLAG.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.BHM.get(), RenderType.translucent());
