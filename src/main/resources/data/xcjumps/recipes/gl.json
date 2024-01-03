@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "   ",
+    "   "
+  ],
+  "key": {
+
+    "C": {
+      "item": "minecraft:oak_log"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:gl",
+    "count": 2
+  }
+}
