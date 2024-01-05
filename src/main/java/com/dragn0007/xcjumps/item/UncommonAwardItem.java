@@ -5,16 +5,18 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
 
-public class UncommonAwardItem extends Item {
+public class UncommonAwardItem extends ItemNameBlockItem {
 
     public MobEffectInstance[] effectInstances;
 
-    public UncommonAwardItem(MobEffectInstance... effectInstances) {
-        super(new Properties().rarity(Rarity.UNCOMMON).durability(10).tab(XCItemGroup.XC_GROUP));
+    public UncommonAwardItem(Block block, Properties properties, MobEffectInstance... effectInstances) {
+        super(block, properties);
         this.effectInstances = effectInstances;
     }
 
