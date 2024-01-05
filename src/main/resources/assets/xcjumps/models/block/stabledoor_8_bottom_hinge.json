@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_rh",
+  "textures": {
+    "top": "xcjumps:block/stabledoor_8_t",
+    "bottom": "xcjumps:block/stabledoor_8_b"
+  }
+}

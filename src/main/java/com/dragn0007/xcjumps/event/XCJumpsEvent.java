@@ -34,6 +34,13 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.BFR.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.SB.get(), RenderType.translucent());
 
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.STABLEDOOR_1.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.STABLEDOOR_3.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.STABLEDOOR_5.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.STABLEDOOR_7.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.STABLEDOOR_9.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.STABLEDOOR_11.get(), RenderType.cutout());
+
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANT_BLACK.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANT_BLUE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANT_CYAN.get(), RenderType.cutout());

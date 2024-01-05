@@ -10,10 +10,7 @@ import com.dragn0007.xcjumps.item.XCItemGroup;
 import com.dragn0007.xcjumps.item.XCItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.LanternBlock;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.TrapDoorBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -31,6 +28,31 @@ public class XCBlocks {
             = DeferredRegister.create(ForgeRegistries.BLOCKS, XCJumps.MODID);
 
     //TODO; 1.4
+    public static final RegistryObject<Block> STABLEDOOR_1 = registerDecoBlock("stabledoor_1",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> STABLEDOOR_2 = registerDecoBlock("stabledoor_2",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> STABLEDOOR_3 = registerDecoBlock("stabledoor_3",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> STABLEDOOR_4 = registerDecoBlock("stabledoor_4",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> STABLEDOOR_5 = registerDecoBlock("stabledoor_5",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> STABLEDOOR_6 = registerDecoBlock("stabledoor_6",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> STABLEDOOR_7 = registerDecoBlock("stabledoor_7",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> STABLEDOOR_8 = registerDecoBlock("stabledoor_8",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> STABLEDOOR_9 = registerDecoBlock("stabledoor_9",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> STABLEDOOR_10 = registerDecoBlock("stabledoor_10",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> STABLEDOOR_11 = registerDecoBlock("stabledoor_11",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> STABLEDOOR_12 = registerDecoBlock("stabledoor_12",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+
     public static final RegistryObject<Block> LANT_BLACK = registerDecoBlock("lant_black",
             () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
                     .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
