@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "xcjumps:block/lant_black"
+    },
+    "hanging=true": {
+      "model": "xcjumps:block/lant_black_hanging"
+    }
+  }
+}

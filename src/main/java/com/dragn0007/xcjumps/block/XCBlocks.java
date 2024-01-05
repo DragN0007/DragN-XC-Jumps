@@ -3,6 +3,7 @@ package com.dragn0007.xcjumps.block;
 import com.dragn0007.xcjumps.XCJumps;
 import com.dragn0007.xcjumps.block.vox.decor.HorseHeadStatue;
 import com.dragn0007.xcjumps.block.vox.decor.Sign;
+import com.dragn0007.xcjumps.block.vox.decor.WallMedal;
 import com.dragn0007.xcjumps.block.vox.jumps.*;
 import com.dragn0007.xcjumps.block.vox.jumps.Short;
 import com.dragn0007.xcjumps.item.XCItemGroup;
@@ -10,9 +11,12 @@ import com.dragn0007.xcjumps.item.XCItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.LanternBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.TrapDoorBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,13 +24,127 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
+import java.util.function.ToIntFunction;
 
 public class XCBlocks {
     public static final DeferredRegister<Block> BLOCKS
             = DeferredRegister.create(ForgeRegistries.BLOCKS, XCJumps.MODID);
 
+    //TODO; 1.4
+    public static final RegistryObject<Block> LANT_BLACK = registerDecoBlock("lant_black",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANT_BLUE = registerDecoBlock("lant_blue",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANT_CYAN = registerDecoBlock("lant_cyan",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANT_GREEN = registerDecoBlock("lant_green",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANT_PINK = registerDecoBlock("lant_pink",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANT_PURPLE = registerDecoBlock("lant_purple",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANT_RED = registerDecoBlock("lant_red",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANT_WHITE = registerDecoBlock("lant_white",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+
+    public static final RegistryObject<Block> LANTG_BLACK = registerDecoBlock("lantg_black",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANTG_BLUE = registerDecoBlock("lantg_blue",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANTG_CYAN = registerDecoBlock("lantg_cyan",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANTG_GREEN = registerDecoBlock("lantg_green",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANTG_PINK = registerDecoBlock("lantg_pink",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANTG_PURPLE = registerDecoBlock("lantg_purple",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANTG_RED = registerDecoBlock("lantg_red",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+    public static final RegistryObject<Block> LANTG_WHITE = registerDecoBlock("lantg_white",
+            () -> new LanternBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(3.5F)
+                    .sound(SoundType.LANTERN).lightLevel((p_187433_) -> 15).noOcclusion()));
+
+    public static final RegistryObject<Block> FBL_DLN = registerDecoBlock("fbl_dln",
+            () -> new FlowerBedLarge());
+    public static final RegistryObject<Block> FBL_PPY = registerDecoBlock("fbl_ppy",
+            () -> new FlowerBedLarge());
+    public static final RegistryObject<Block> FBL_BOD = registerDecoBlock("fbl_bod",
+            () -> new FlowerBedLarge());
+    public static final RegistryObject<Block> FBL_ALM = registerDecoBlock("fbl_alm",
+            () -> new FlowerBedLarge());
+    public static final RegistryObject<Block> FBL_AZB = registerDecoBlock("fbl_azb",
+            () -> new FlowerBedLarge());
+    public static final RegistryObject<Block> FBL_RTLP = registerDecoBlock("fbl_rtlp",
+            () -> new FlowerBedLarge());
+    public static final RegistryObject<Block> FBL_OTLP = registerDecoBlock("fbl_otlp",
+            () -> new FlowerBedLarge());
+    public static final RegistryObject<Block> FBL_WTLP = registerDecoBlock("fbl_wtlp",
+            () -> new FlowerBedLarge());
+    public static final RegistryObject<Block> FBL_PTLP = registerDecoBlock("fbl_ptlp",
+            () -> new FlowerBedLarge());
+    public static final RegistryObject<Block> FBL_ODY = registerDecoBlock("fbl_ody",
+            () -> new FlowerBedLarge());
+    public static final RegistryObject<Block> FBL_CFL = registerDecoBlock("fbl_cfl",
+            () -> new FlowerBedLarge());
+    public static final RegistryObject<Block> FBL_LVY = registerDecoBlock("fbl_lvy",
+            () -> new FlowerBedLarge());
+
+    public static final RegistryObject<Block> FBS_DLN = registerDecoBlock("fbs_dln",
+            () -> new FlowerBedSmall());
+    public static final RegistryObject<Block> FBS_PPY = registerDecoBlock("fbs_ppy",
+            () -> new FlowerBedSmall());
+    public static final RegistryObject<Block> FBS_BOD = registerDecoBlock("fbs_bod",
+            () -> new FlowerBedSmall());
+    public static final RegistryObject<Block> FBS_ALM = registerDecoBlock("fbs_alm",
+            () -> new FlowerBedSmall());
+    public static final RegistryObject<Block> FBS_AZB = registerDecoBlock("fbs_azb",
+            () -> new FlowerBedSmall());
+    public static final RegistryObject<Block> FBS_RTLP = registerDecoBlock("fbs_rtlp",
+            () -> new FlowerBedSmall());
+    public static final RegistryObject<Block> FBS_OTLP = registerDecoBlock("fbs_otlp",
+            () -> new FlowerBedSmall());
+    public static final RegistryObject<Block> FBS_WTLP = registerDecoBlock("fbs_wtlp",
+            () -> new FlowerBedSmall());
+    public static final RegistryObject<Block> FBS_PTLP = registerDecoBlock("fbs_ptlp",
+            () -> new FlowerBedSmall());
+    public static final RegistryObject<Block> FBS_ODY = registerDecoBlock("fbs_ody",
+            () -> new FlowerBedSmall());
+    public static final RegistryObject<Block> FBS_CFL = registerDecoBlock("fbs_cfl",
+            () -> new FlowerBedSmall());
+    public static final RegistryObject<Block> FBS_LVY = registerDecoBlock("fbs_lvy",
+            () -> new FlowerBedSmall());
+
+    public static final RegistryObject<Block> WMD = registerDecoBlockWithoutItem("wmd",
+            () -> new WallMedal());
+    public static final RegistryObject<Block> WMG = registerDecoBlockWithoutItem("wmg",
+            () -> new WallMedal());
+    public static final RegistryObject<Block> WMS = registerDecoBlockWithoutItem("wms",
+            () -> new WallMedal());
+    public static final RegistryObject<Block> WMB = registerDecoBlockWithoutItem("wmb",
+            () -> new WallMedal());
+
+
+
+
     //TODO; 1.3
-    public static final RegistryObject<Block> WALL_LINER = registerBlock("wall_liner",
+    public static final RegistryObject<Block> WALL_LINER = registerDecoBlock("wall_liner",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
 
     //Castle
@@ -165,42 +283,52 @@ public class XCBlocks {
             () -> new SlantBush());
 
     //Decor
-    public static final RegistryObject<Block> HORSESTATUE_1 = registerBlock("horsestatue_1",
+    public static final RegistryObject<Block> HORSESTATUE_1 = registerDecoBlock("horsestatue_1",
             () -> new HorseHeadStatue());
-    public static final RegistryObject<Block> HORSESTATUE_2 = registerBlock("horsestatue_2",
+    public static final RegistryObject<Block> HORSESTATUE_2 = registerDecoBlock("horsestatue_2",
             () -> new HorseHeadStatue());
-    public static final RegistryObject<Block> HORSESTATUE_3 = registerBlock("horsestatue_3",
+    public static final RegistryObject<Block> HORSESTATUE_3 = registerDecoBlock("horsestatue_3",
             () -> new HorseHeadStatue());
-    public static final RegistryObject<Block> HORSESTATUE_4 = registerBlock("horsestatue_4",
+    public static final RegistryObject<Block> HORSESTATUE_4 = registerDecoBlock("horsestatue_4",
             () -> new HorseHeadStatue());
-    public static final RegistryObject<Block> HORSESTATUE_5 = registerBlock("horsestatue_5",
+    public static final RegistryObject<Block> HORSESTATUE_5 = registerDecoBlock("horsestatue_5",
             () -> new HorseHeadStatue());
-    public static final RegistryObject<Block> SIGN_0 = registerBlock("sign_0",
+    public static final RegistryObject<Block> SIGN_0 = registerDecoBlock("sign_0",
             () -> new Sign());
-    public static final RegistryObject<Block> SIGN_1 = registerBlock("sign_1",
+    public static final RegistryObject<Block> SIGN_1 = registerDecoBlock("sign_1",
             () -> new Sign());
-    public static final RegistryObject<Block> SIGN_2 = registerBlock("sign_2",
+    public static final RegistryObject<Block> SIGN_2 = registerDecoBlock("sign_2",
             () -> new Sign());
-    public static final RegistryObject<Block> SIGN_3 = registerBlock("sign_3",
+    public static final RegistryObject<Block> SIGN_3 = registerDecoBlock("sign_3",
             () -> new Sign());
-    public static final RegistryObject<Block> SIGN_4 = registerBlock("sign_4",
+    public static final RegistryObject<Block> SIGN_4 = registerDecoBlock("sign_4",
             () -> new Sign());
-    public static final RegistryObject<Block> SIGN_5 = registerBlock("sign_5",
+    public static final RegistryObject<Block> SIGN_5 = registerDecoBlock("sign_5",
             () -> new Sign());
-    public static final RegistryObject<Block> SIGN_6 = registerBlock("sign_6",
+    public static final RegistryObject<Block> SIGN_6 = registerDecoBlock("sign_6",
             () -> new Sign());
-    public static final RegistryObject<Block> SIGN_7 = registerBlock("sign_7",
+    public static final RegistryObject<Block> SIGN_7 = registerDecoBlock("sign_7",
             () -> new Sign());
-    public static final RegistryObject<Block> SIGN_8 = registerBlock("sign_8",
+    public static final RegistryObject<Block> SIGN_8 = registerDecoBlock("sign_8",
             () -> new Sign());
-    public static final RegistryObject<Block> SIGN_9 = registerBlock("sign_9",
+    public static final RegistryObject<Block> SIGN_9 = registerDecoBlock("sign_9",
             () -> new Sign());
-    public static final RegistryObject<Block> RED_FLAG = registerBlock("red_flag",
+    public static final RegistryObject<Block> RED_FLAG = registerDecoBlock("red_flag",
             () -> new Sign());
-    public static final RegistryObject<Block> WHITE_FLAG = registerBlock("white_flag",
+    public static final RegistryObject<Block> WHITE_FLAG = registerDecoBlock("white_flag",
             () -> new Sign());
 
 
+
+    private static ToIntFunction<BlockState> litBlockEmission(int p_50760_) {
+        return (blockState) -> {
+            return blockState.getValue(BlockStateProperties.LIT) ? p_50760_ : 0;
+        };
+    }
+
+    private static <T extends Block>RegistryObject<T> registerDecoBlockWithoutItem(String name, Supplier<T> block){
+        return BLOCKS.register(name, block);
+    }
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
@@ -209,7 +337,17 @@ public class XCBlocks {
     }
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
         XCItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-                new Item.Properties().tab(XCItemGroup.XC_GROUP)));
+                new Item.Properties().tab(XCItemGroup.JUMPS)));
+    }
+
+    private static <T extends Block>RegistryObject<T> registerDecoBlock(String name, Supplier<T> block){
+        RegistryObject<T> toReturn = BLOCKS.register(name, block);
+        registerDecoBlockItem(name, toReturn);
+        return toReturn;
+    }
+    private static <T extends Block> void registerDecoBlockItem(String name, RegistryObject<T> block) {
+        XCItems.ITEMS.register(name, () -> new BlockItem(block.get(),
+                new Item.Properties().tab(XCItemGroup.DECO)));
     }
 
     public static void register(IEventBus eventBus) {

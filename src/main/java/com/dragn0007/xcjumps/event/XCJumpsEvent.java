@@ -14,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
     @SubscribeEvent
     public static void clientSetupEvent(FMLClientSetupEvent event) {
+
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.CLIFF.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.HEDGE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.FH.get(), RenderType.cutout());
@@ -32,6 +33,48 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.BFL.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.BFR.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(XCBlocks.SB.get(), RenderType.translucent());
+
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANT_BLACK.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANT_BLUE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANT_CYAN.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANT_GREEN.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANT_PINK.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANT_PURPLE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANT_RED.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANT_WHITE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANTG_BLACK.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANTG_BLUE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANTG_CYAN.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANTG_GREEN.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANTG_PINK.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANTG_PURPLE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANTG_RED.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.LANTG_WHITE.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBL_ALM.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBL_AZB.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBL_BOD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBL_CFL.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBL_DLN.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBL_LVY.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBL_PPY.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBL_PTLP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBL_OTLP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBL_RTLP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBL_WTLP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBL_ODY.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBS_ALM.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBS_AZB.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBS_BOD.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBS_CFL.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBS_DLN.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBS_LVY.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBS_PPY.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBS_PTLP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBS_OTLP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBS_RTLP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBS_WTLP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(XCBlocks.FBS_ODY.get(), RenderType.cutout());
     }
 }
 
