@@ -1,4 +1,4 @@
-package com.dragn0007.xcjumps.block.vox.jumps;
+package com.dragn0007.xcjumps.block.vox.decor;
 
 import com.dragn0007.xcjumps.block.rot.DecorRotator;
 import net.minecraft.world.level.block.Block;

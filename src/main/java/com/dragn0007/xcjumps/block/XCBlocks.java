@@ -1,9 +1,7 @@
 package com.dragn0007.xcjumps.block;
 
 import com.dragn0007.xcjumps.XCJumps;
-import com.dragn0007.xcjumps.block.vox.decor.HorseHeadStatue;
-import com.dragn0007.xcjumps.block.vox.decor.Sign;
-import com.dragn0007.xcjumps.block.vox.decor.WallMedal;
+import com.dragn0007.xcjumps.block.vox.decor.*;
 import com.dragn0007.xcjumps.block.vox.jumps.*;
 import com.dragn0007.xcjumps.block.vox.jumps.Short;
 import com.dragn0007.xcjumps.item.XCItemGroup;
@@ -28,6 +26,32 @@ public class XCBlocks {
             = DeferredRegister.create(ForgeRegistries.BLOCKS, XCJumps.MODID);
 
     //TODO; 1.4
+    public static final RegistryObject<Block> SHELF_1 = registerDecoBlock("shelf_1",
+            () -> new Shelf());
+    public static final RegistryObject<Block> SHELF_2 = registerDecoBlock("shelf_2",
+            () -> new Shelf());
+    public static final RegistryObject<Block> SHELF_3 = registerDecoBlock("shelf_3",
+            () -> new Shelf());
+    public static final RegistryObject<Block> SHELF_4 = registerDecoBlock("shelf_4",
+            () -> new Shelf());
+    public static final RegistryObject<Block> SHELF_5 = registerDecoBlock("shelf_5",
+            () -> new Shelf());
+    public static final RegistryObject<Block> SHELF_6 = registerDecoBlock("shelf_6",
+            () -> new Shelf());
+
+    public static final RegistryObject<Block> WIN_1 = registerDecoBlock("win_1",
+            () -> new Window());
+    public static final RegistryObject<Block> WIN_2 = registerDecoBlock("win_2",
+            () -> new Window());
+    public static final RegistryObject<Block> WIN_3 = registerDecoBlock("win_3",
+            () -> new Window());
+    public static final RegistryObject<Block> WIN_4 = registerDecoBlock("win_4",
+            () -> new Window());
+    public static final RegistryObject<Block> WIN_5 = registerDecoBlock("win_5",
+            () -> new Window());
+    public static final RegistryObject<Block> WIN_6 = registerDecoBlock("win_6",
+            () -> new Window());
+
     public static final RegistryObject<Block> STABLEDOOR_1 = registerDecoBlock("stabledoor_1",
             () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
     public static final RegistryObject<Block> STABLEDOOR_2 = registerDecoBlock("stabledoor_2",
@@ -154,13 +178,13 @@ public class XCBlocks {
             () -> new FlowerBedSmall());
 
     public static final RegistryObject<Block> WMD = registerDecoBlockWithoutItem("wmd",
-            () -> new WallMedal());
+            () -> new WallHook());
     public static final RegistryObject<Block> WMG = registerDecoBlockWithoutItem("wmg",
-            () -> new WallMedal());
+            () -> new WallHook());
     public static final RegistryObject<Block> WMS = registerDecoBlockWithoutItem("wms",
-            () -> new WallMedal());
+            () -> new WallHook());
     public static final RegistryObject<Block> WMB = registerDecoBlockWithoutItem("wmb",
-            () -> new WallMedal());
+            () -> new WallHook());
 
 
 

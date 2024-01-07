@@ -118,6 +118,20 @@
   "block.xcjumps.fbs_rtlp": "Red Tulip Flower Bed (S)",
   "block.xcjumps.fbs_wtlp": "White Tulip Flower Bed (S)",
 
+  "block.xcjumps.shelf_1": "Spruce Shelf",
+  "block.xcjumps.shelf_2": "Acacia Shelf",
+  "block.xcjumps.shelf_3": "Birch Shelf",
+  "block.xcjumps.shelf_4": "Dark Oak Shelf",
+  "block.xcjumps.shelf_5": "Jungle Shelf",
+  "block.xcjumps.shelf_6": "Oak Shelf",
+
+  "block.xcjumps.win_1": "Spruce Stable Window",
+  "block.xcjumps.win_2": "Acacia Stable Window",
+  "block.xcjumps.win_3": "Birch Stable Window",
+  "block.xcjumps.win_4": "Dark Oak Stable Window",
+  "block.xcjumps.win_5": "Jungle Stable Window",
+  "block.xcjumps.win_6": "Oak Stable Window",
+
   "block.xcjumps.stabledoor_1": "Open-Top Spruce Stable Door",
   "block.xcjumps.stabledoor_2": "Spruce Stable Door",
   "block.xcjumps.stabledoor_3": "Open-Top Acacia Stable Door",

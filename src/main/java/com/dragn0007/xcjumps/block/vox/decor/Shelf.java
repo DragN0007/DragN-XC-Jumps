@@ -8,34 +8,34 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 import java.util.stream.Stream;
 
-public class WallMedal extends DecorRotator {
+public class Shelf extends DecorRotator {
 
-    public WallMedal() {
+    public Shelf() {
         super(NORTH, EAST, SOUTH, WEST);
     }
 
     public static final VoxelShape NORTH = Stream.of(
-            Block.box(7.3, 12, 13, 8.700000000000001, 13, 15),
-            Block.box(6.299999999999999, 11, 15, 9.700000000000001, 14, 16),
-            Block.box(7.3, 13, 13, 8.7, 14, 14)
+            Block.box(0, 14, 4, 18, 16, 16),
+            Block.box(0, 7, 14, 2, 14, 16),
+            Block.box(16, 7, 14, 18, 14, 16)
     ).reduce((v1, v2) -> Shapes.join(v1, v2,BooleanOp.OR)).get();
 
     public static final VoxelShape EAST = Stream.of(
-            Block.box(1, 12, 7.3, 3, 13, 8.700000000000001),
-            Block.box(0, 11, 6.299999999999999, 1, 14, 9.700000000000001),
-            Block.box(2, 13, 7.3, 3, 14, 8.7)
+            Block.box(0, 14, 0, 12, 16, 18),
+            Block.box(0, 7, 0, 2, 14, 2),
+            Block.box(0, 7, 16, 2, 14, 18)
     ).reduce((v1, v2) -> Shapes.join(v1, v2,BooleanOp.OR)).get();
 
     public static final VoxelShape SOUTH = Stream.of(
-            Block.box(7.299999999999999, 12, 1, 8.7, 13, 3),
-            Block.box(6.299999999999999, 11, 0, 9.700000000000001, 14, 1),
-            Block.box(7.300000000000001, 13, 2, 8.7, 14, 3)
+            Block.box(-2, 14, 0, 16, 16, 12),
+            Block.box(14, 7, 0, 16, 14, 2),
+            Block.box(-2, 7, 0, 0, 14, 2)
     ).reduce((v1, v2) -> Shapes.join(v1, v2,BooleanOp.OR)).get();
 
     public static final VoxelShape WEST = Stream.of(
-            Block.box(13, 12, 7.299999999999999, 15, 13, 8.7),
-            Block.box(15, 11, 6.299999999999999, 16, 14, 9.700000000000001),
-            Block.box(13, 13, 7.300000000000001, 14, 14, 8.7)
+            Block.box(4, 14, -2, 16, 16, 16),
+            Block.box(14, 7, 14, 16, 14, 16),
+            Block.box(14, 7, -2, 16, 14, 0)
     ).reduce((v1, v2) -> Shapes.join(v1, v2,BooleanOp.OR)).get();
 
 }
