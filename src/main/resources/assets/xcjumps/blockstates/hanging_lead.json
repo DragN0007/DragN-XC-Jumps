@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "xcjumps:block/hanging_lead",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "xcjumps:block/hanging_lead"
+    },
+    "facing=south": {
+      "model": "xcjumps:block/hanging_lead",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "xcjumps:block/hanging_lead",
+      "y": 270
+    }
+  }
+}

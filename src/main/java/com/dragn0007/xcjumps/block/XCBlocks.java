@@ -6,6 +6,7 @@ import com.dragn0007.xcjumps.block.vox.jumps.*;
 import com.dragn0007.xcjumps.block.vox.jumps.Short;
 import com.dragn0007.xcjumps.item.XCItemGroup;
 import com.dragn0007.xcjumps.item.XCItems;
+import com.mojang.datafixers.types.templates.Hook;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -26,6 +27,11 @@ public class XCBlocks {
             = DeferredRegister.create(ForgeRegistries.BLOCKS, XCJumps.MODID);
 
     //TODO; 1.4
+    public static final RegistryObject<Block> HANGING_HOSE = registerDecoBlock("hanging_hose",
+            () -> new WallHook());
+    public static final RegistryObject<Block> HANGING_LEAD = registerDecoBlock("hanging_lead",
+            () -> new WallHook());
+
     public static final RegistryObject<Block> SHELF_1 = registerDecoBlock("shelf_1",
             () -> new Shelf());
     public static final RegistryObject<Block> SHELF_2 = registerDecoBlock("shelf_2",
