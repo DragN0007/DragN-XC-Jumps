@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "B B",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:jungle_planks"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:win_5",
+    "count": 1
+  }
+}

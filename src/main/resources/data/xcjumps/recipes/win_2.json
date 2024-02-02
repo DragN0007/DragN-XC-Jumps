@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "B B",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:acacia_planks"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:win_2",
+    "count": 1
+  }
+}

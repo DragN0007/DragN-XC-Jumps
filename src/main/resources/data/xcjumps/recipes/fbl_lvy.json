@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:spruce_planks"
+    },
+    "B": {
+      "item": "minecraft:dirt"
+    },
+    "C": {
+      "item": "minecraft:lily_of_the_valley"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:fbl_lvy",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA ",
+    "AC ",
+    "CA "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:stabledoor_8",
+    "count": 1
+  }
+}

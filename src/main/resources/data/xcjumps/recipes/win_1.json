@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "B B",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:spruce_planks"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:win_1",
+    "count": 1
+  }
+}

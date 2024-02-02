@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " A ",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:lead"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    }
+
+  },
+  "result": {
+    "item": "xcjumps:hanging_lead",
+    "count": 1
+  }
+}
